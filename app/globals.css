@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@theme inline {
+  /* Mapear tokens semánticos a clases Tailwind */
+  --color-brand:          var(--color-brand-default);
+  --color-brand-hover:    var(--color-brand-hover);
+  --color-brand-subtle:   var(--color-brand-subtle);
+
+  --color-text-primary:   var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-tertiary:  var(--color-text-tertiary);
+  --color-text-brand:     var(--color-text-brand);
+
+  --color-bg:             var(--color-bg-default);
+  --color-bg-subtle:      var(--color-bg-subtle);
+  --color-bg-surface:     var(--color-bg-surface);
+
+  --color-border:         var(--color-border-default);
+  --color-border-strong:  var(--color-border-strong);
+  --color-border-brand:   var(--color-border-brand);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--color-bg-default);
+  color: var(--color-text-primary);
+}
