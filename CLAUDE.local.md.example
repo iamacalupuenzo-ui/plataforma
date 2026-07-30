@@ -1,0 +1,9 @@
+<!--
+  Copiar a CLAUDE.local.md — está en .gitignore, no se commitea.
+  Carga en cada sesión junto a CLAUDE.md. Máximo 40 líneas.
+  Es para lo tuyo: paths locales, URLs de sandbox, datos de prueba.
+-->
+
+# Preferencias locales
+
+- <ruta local, URL de sandbox, credencial de test, etc.>

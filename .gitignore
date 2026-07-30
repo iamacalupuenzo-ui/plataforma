@@ -27,3 +27,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Contexto personal
+CLAUDE.local.md
+.claude/settings.local.json
