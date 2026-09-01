@@ -61,7 +61,7 @@ export function InvertaseHome() {
       </section>
 
       <section className="services" id="services">
-        <div className="container"><h2>Our services</h2><div className="service-grid">{services.map(([title, body, icon]) => <article key={title} className="service-card"><div className="service-heading"><img className="service-icon" src={`${asset}${icon}`} alt="" /><h3>{title}</h3></div><p>{body}</p><a href="#footer">Learn more <span aria-hidden="true">›</span></a></article>)}</div></div>
+        <div className="container"><h2>Our services</h2><div className="service-grid">{services.map(([title, body, icon]) => <article key={title} className="service-card"><div className="service-heading"><img className="service-icon" src={`${asset}${icon}`} alt="" /><h3>{title}</h3></div><p>{body}</p><a href={title === 'Cross-Platform Development' ? '#footer' : '/sdk#sdk-development'}>Learn more <span className="service-arrow" aria-hidden="true"><svg viewBox="0 0 12 18" fill="none"><path d="m4 3.5 5 5-5 5" stroke="currentColor" strokeWidth="1.5" /></svg></span><span className="sr-only">about {title}</span></a></article>)}</div></div>
       </section>
 
       <section className="open-source" id="open-source">
