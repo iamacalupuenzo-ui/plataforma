@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { SiteHeader } from './site-header'
 
 const asset = '/invertase-assets/invertase.io/_next/static/media/'
+const sanity = '/invertase-assets/cdn.sanity.io/images/1v0jq1bx/production/'
 
 const services = [
   ['SDK Development', 'Empower developers with reliable, well-designed SDKs that integrate seamlessly into your platform, inspiring them to build amazing solutions.', '77b474d4f9b18b8171d53369da44028a.svg'],
@@ -12,17 +13,17 @@ const services = [
 ]
 
 const openSource = [
-  ['React Native Firebase', 'Add Firebase features to your React Native projects.', '12.3k', 'react-native-logo.05225e8d.png'],
-  ['Notifee', 'Add engaging notifications to your React Native projects.', '2.2k', 'notifee-logo.7a60b2c3.png'],
-  ['Melos', 'Organise your Dart & Flutter projects with multiple packages.', '1.5k', 'melos-logo.d65ca121.png'],
-  ['React Native Google Mobile Ads', 'Monetize your React Native apps with Google Ads.', '1k', 'google-mobile-ads-logo.29cc21f6.png'],
-  ['FlutterFire CLI', 'Add Firebase features to your Flutter projects.', '193', 'flutter-fire-logo.21c27605.png'],
+  ['React Native Firebase', 'Add Firebase features to your React Native projects.', '12.3k', 'react-native-logo.05225e8d.png', '962193a5e44365cd5ca90a80de528355.svg'],
+  ['Notifee', 'Add engaging notifications to your React Native projects.', '2.2k', 'notifee-logo.7a60b2c3.png', '8cc1f6a2a4bc78051e80ca963848c9b9.svg'],
+  ['Melos', 'Organise your Dart & Flutter projects with multiple packages.', '1.5k', 'melos-logo.d65ca121.png', 'c02d3a0a6fd73aba04cebcb8a5b3458f.svg'],
+  ['React Native Google Mobile Ads', 'Monetize your React Native apps with Google Ads.', '1k', 'google-mobile-ads-logo.29cc21f6.png', '4118f1194595ef00e6e4c1d34987fef2.svg'],
+  ['FlutterFire CLI', 'Add Firebase features to your Flutter projects.', '193', 'flutter-fire-logo.21c27605.png', '44dcfef9759241170807ac703dd74f35.svg'],
 ]
 
 const stories = [
-  ['Transforming FlutterFire', 'The Official Firebase SDK for Flutter'],
-  ['Canonical Embraces Flutter', 'Guided by Invertase'],
-  ['Making Documentation Easy', 'for Widgetbook with docs.page'],
+  ['Transforming FlutterFire: The Official Firebase SDK for Flutter', 'b7b77656ff62350eb2662001e2d579c83732f140-2016x1194-5e60cc11ab.jpg', 'b4ad613ec99f490b3d7748299a6d40a724c0f5cb-158x52-eb05006e5b.svg'],
+  ['Canonical Embraces Flutter, Guided by Invertase', 'd717a472ab47e8d73857aeda73a7132341911984-2016x1194-5e60cc11ab.jpg', 'df059a71429613d0b7245cd8188844046c0b8009-158x52-eb05006e5b.svg'],
+  ['Making Documentation Easy for Widgetbook with docs.page', '939ab82ae80684321e088031575e88a30e7c1524-2016x1194-5e60cc11ab.jpg', 'b992f7ca3fb1a28baad8ad9b7c8a9b3851e9eda8-184x52-eb05006e5b.svg'],
 ]
 
 const posts = [
@@ -34,6 +35,7 @@ const posts = [
 
 export function InvertaseHome() {
   const [showCookie, setShowCookie] = useState(true)
+  const [activeStory, setActiveStory] = useState(0)
 
   return (
     <main className="invertase-page">
@@ -55,13 +57,13 @@ export function InvertaseHome() {
         <div className="container"><h2>Our services</h2><div className="service-grid">{services.map(([title, body, icon]) => <article key={title} className="service-card"><div className="service-heading"><img className="service-icon" src={`${asset}${icon}`} alt="" /><h3>{title}</h3></div><p>{body}</p><a href="#footer">Learn more <span aria-hidden="true">›</span></a></article>)}</div></div>
       </section>
 
-      <section className="open-source section-light" id="open-source">
-        <div className="container"><div className="section-intro"><h2>Empowering developers through open source</h2><p>Our open-source software improves the developer experience for developers in 175 countries, empowering them to build better applications.</p><a href="#footer">Explore open-source resources ›</a></div><div className="rail">{openSource.map(([name, body, stars, logo]) => <article className="oss-card" key={name}><span>★ {stars}</span><img src={`${asset}${logo}`} alt="" /><h3>{name}</h3><p>{body}</p></article>)}</div><div className="metrics"><div><strong>90 million</strong><span>Monthly downloads</span></div><div><strong>33.9k</strong><span>GitHub stars</span></div><div><strong>4.7k</strong><span>Discord members</span></div><div><strong>2.5k</strong><span>Code contributors</span></div></div></div>
+      <section className="open-source" id="open-source">
+        <div className="container"><div className="section-intro"><h2>Empowering developers through open source</h2><p>Our open-source software improves the developer experience for developers in 175 countries, empowering them to build better applications.</p><a href="#footer">Explore open-source resources ›</a></div></div><div className="rail">{openSource.map(([name, body, stars, logo, background]) => <article className="oss-card" key={name}><img className="oss-background" src={`${asset}${background}`} alt="" /><div className="oss-content"><span className="oss-stars"><img src={`${asset}a5da2f3c589ae1c090595fa33d6aa7e3.svg`} alt="" />{stars}</span><img className="oss-logo" src={`${asset}${logo}`} alt="" /><div><h3>{name}<i>›</i></h3><p>{body}</p></div></div></article>)}</div><div className="container"><div className="metrics"><div><strong>90 million</strong><span>Monthly downloads</span></div><div><strong>33.9k</strong><span>GitHub stars</span></div><div><strong>4.7k</strong><span>Discord members</span></div><div><strong>2.5k</strong><span>Code contributors</span></div></div></div>
       </section>
 
-      <section className="tools section-light" id="tools"><div className="container tools-layout"><div><h2>Developer tools, reimagined</h2><p>We understand the challenges developers face. That’s why we build products that streamline workflows, eliminate friction, and empower developers to focus on what they do best: making great products.</p></div><article className="docs-card"><video className="docs-video" autoPlay loop muted playsInline src="/invertase-assets/invertase.io/animations/pages/home/Bento-02-lg.webm" /><p>docs.page</p><strong>Build Better<br />Software, Faster</strong><span>Ship documentation, like you ship code. ›</span></article></div></section>
+      <section className="tools" id="tools"><div className="container tools-layout"><div className="tools-intro"><h2>Developer tools, reimagined</h2><p>We understand the challenges developers face. That’s why we build products that streamline workflows, eliminate friction, and empower developers to focus on what they do best: making great products.</p></div><div className="tools-showcase"><article className="tools-partner"><img src={`${asset}partner-bg.24e82eb0.jpg`} alt="" /><h3>Build Better<br />Software, Faster</h3><span>✦</span></article><a className="docs-card" href="#footer"><img src={`${asset}docs-new-bg.5411f6b5.jpg`} alt="" /><div><strong>Docs.page</strong><p>Ship documentation, like you ship code.</p><span>›</span></div></a></div></div></section>
 
-      <section className="stories section-dark"><div className="container"><div className="section-intro"><h2>Success stories</h2><p>Explore how we’ve transformed developer experiences.</p></div><div className="story-grid">{stories.map(([title, subtitle], index) => <article className={`story story-${index + 1}`} key={title}><span>Case study</span><h3>{title}<br />{subtitle}</h3><a href="#footer">Read case study ›</a></article>)}</div></div></section>
+      <section className="stories"><div className="container"><div className="section-intro"><h2>Success stories</h2><p>Explore how we’ve transformed developer experiences.</p></div><div className="story-grid">{stories.map(([title, image, logo], index) => <article className={`story${activeStory === index ? ' is-active' : ''}`} key={title} onClick={() => setActiveStory(index)}><img className="story-background" src={`${sanity}${image}`} alt="" /><img className="story-logo" src={`${sanity}${logo}`} alt="" /><div className="story-copy"><h3>{title}</h3><a href="#footer" onClick={(event) => event.stopPropagation()}>Read case study <i>›</i></a><span className="story-progress"><b /></span></div></article>)}</div></div></section>
 
       <section className="join section-dark"><div className="container"><h2>Join our growing team</h2><p>Obsessed with developer experience? So are we. Come shape the future with us.</p><a className="button button-light" href="#footer">See open positions</a></div></section>
 
