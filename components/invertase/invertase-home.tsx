@@ -33,6 +33,13 @@ const posts = [
   ['Sending emails using Firestore and Firebase Extensions', 'Oct 6, 2022'],
 ]
 
+const communityItems = [
+  ['Stay informed', 'Get the latest news, updates and announcements.', 'Follow us on X', 'b8532087074dc71a59f239657ea042e4.svg', '963b66d4313ee35a24bcbc6071c738b2.svg'],
+  ['Learn and discover', 'Watch tutorials, demos, and deep dives.', 'Watch on YouTube', '587da3a564a5652c2a3903a9cd80f644.svg', 'c5e47ac7ddf14476da72d1f10969e68a.svg'],
+  ['Connect with developers', 'Get real-time support, discuss ideas, and connect with fellow developers.', 'Join our Discord', '04f7066570cc097ade2a543f0dd435b9.svg', 'b4d12d99000aa3709d1e270defd51ffb.svg'],
+  ['Contribute to open source', 'Access our open-source resources and give back to the community.', 'Collaborate on GitHub', '69c567bb36cb72466cf1989fdbcf1a42.svg', '8bd382c38b7828ed322ef62daaa70365.svg'],
+]
+
 export function InvertaseHome() {
   const [showCookie, setShowCookie] = useState(true)
   const [activeStory, setActiveStory] = useState(0)
@@ -69,7 +76,7 @@ export function InvertaseHome() {
 
       <section className="resources section-light" id="resources"><div className="container"><div className="section-intro"><h2>Access developer insights and resources</h2><p>Stay informed and inspired with the latest insights, tutorials, and best practices from the Invertase team.</p><a href="#footer">Read the Blog ›</a></div><div className="post-grid">{posts.map(([title, date]) => <article key={title}><div className="post-image" /><small>Elliot Hesp · {date}</small><h3>{title}</h3><a href="#footer">Read article ›</a></article>)}</div></div></section>
 
-      <section className="community section-dark"><div className="container"><div className="section-intro centered"><h2>Join the Invertase community</h2><p>Engage with developers, share insights, and stay up-to-date.</p></div><div className="community-grid">{[['Stay informed', 'Get the latest news, updates and announcements.', 'Follow us on X'], ['Learn and discover', 'Watch tutorials, demos, and deep dives.', 'Watch on YouTube'], ['Connect with developers', 'Get real-time support, discuss ideas, and connect with fellow developers.', 'Join our Discord'], ['Contribute to open source', 'Access our open-source resources and give back to the community.', 'Collaborate on GitHub']].map(([title, body, action]) => <article key={title}><span className="community-icon">✦</span><h3>{title}</h3><p>{body}</p><a href="#footer">{action} ›</a></article>)}</div></div></section>
+      <section className="community"><div className="container"><div className="section-intro centered"><h2>Join the Invertase community</h2><p>Engage with developers, share insights, and stay up-to-date.</p></div><div className="community-grid">{communityItems.map(([title, body, action, background, icon]) => <article key={title}><img className="community-background" src={`${asset}${background}`} alt="" /><a href="#footer"><img className="community-icon" src={`${asset}${icon}`} alt="" /><h3>{title}</h3><p>{body}</p><span>{action} <i>›</i></span></a></article>)}</div></div></section>
 
       <footer className="footer" id="footer"><div className="container footer-cta"><h2>Transform your developer experience</h2><p>Drive developer adoption and accelerate product growth with Invertase.</p><div><a className="button button-outline" href="mailto:hello@example.com">Book a consultation</a><a className="text-link" href="#services">Explore our services ›</a></div></div><div className="container footer-bottom"><div><a className="wordmark" href="#top"><span>✣</span> INVERTASE</a><p>Copyright © 2026 Invertase Limited. All rights reserved.</p></div><div className="footer-links"><span>Services</span><a href="#services">SDK development & maintenance</a><a href="#services">Cross-platform development</a><span>Resources</span><a href="#open-source">Open source</a><a href="#resources">Blog</a></div></div></footer>
 
