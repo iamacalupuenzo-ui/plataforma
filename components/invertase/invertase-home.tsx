@@ -27,10 +27,10 @@ const stories = [
 ]
 
 const posts = [
-  ['docs.page 2.0', 'Jul 31, 2026'],
-  ['DevEx 101: Developer Experience Explained', 'Feb 5, 2025'],
-  ['Assertions in Dart and Flutter tests', 'Feb 2, 2023'],
-  ['Sending emails using Firestore and Firebase Extensions', 'Oct 6, 2022'],
+  ['docs.page 2.0', 'Jul 31, 2026', 'e5a3a65487e9d91927f18ea282359a05504639fc-3840x2160-e633b0e412.png'],
+  ['DevEx 101: Developer Experience Explained', 'Feb 5, 2025', 'e0972a0c3a6646f88e051331cfe734c968cbdc82-1920x1080-e633b0e412.png'],
+  ['Assertions in Dart and Flutter tests', 'Feb 2, 2023', 'e5a3a65487e9d91927f18ea282359a05504639fc-3840x2160-e633b0e412.png'],
+  ['Sending emails using Firestore and Firebase Extensions', 'Oct 6, 2022', 'e0972a0c3a6646f88e051331cfe734c968cbdc82-1920x1080-e633b0e412.png'],
 ]
 
 const communityItems = [
@@ -74,7 +74,7 @@ export function InvertaseHome() {
 
       <section className="join section-dark"><div className="container"><h2>Join our growing team</h2><p>Obsessed with developer experience? So are we. Come shape the future with us.</p><a className="button button-light" href="#footer">See open positions</a></div></section>
 
-      <section className="resources section-light" id="resources"><div className="container"><div className="section-intro"><h2>Access developer insights and resources</h2><p>Stay informed and inspired with the latest insights, tutorials, and best practices from the Invertase team.</p><a href="#footer">Read the Blog ›</a></div><div className="post-grid">{posts.map(([title, date]) => <article key={title}><div className="post-image" /><small>Elliot Hesp · {date}</small><h3>{title}</h3><a href="#footer">Read article ›</a></article>)}</div></div></section>
+      <section className="resources section-light" id="resources"><div className="container"><div className="section-intro"><h2>Access developer insights and resources</h2><p>Stay informed and inspired with the latest insights, tutorials, and best practices from the Invertase team.</p><a href="#footer">Read the Blog ›</a></div></div><div className="post-grid">{posts.map(([title, date, image]) => <article key={title}><div className="post-image"><img src={`${sanity}${image}`} alt="" /></div><small>Elliot Hesp · {date}</small><h3>{title}</h3></article>)}</div></section>
 
       <section className="community"><div className="container"><div className="section-intro centered"><h2>Join the Invertase community</h2><p>Engage with developers, share insights, and stay up-to-date.</p></div><div className="community-grid">{communityItems.map(([title, body, action, background, icon]) => <article key={title}><img className="community-background" src={`${asset}${background}`} alt="" /><a href="#footer"><img className="community-icon" src={`${asset}${icon}`} alt="" /><h3>{title}</h3><p>{body}</p><span>{action} <i>›</i></span></a></article>)}</div></div></section>
 
