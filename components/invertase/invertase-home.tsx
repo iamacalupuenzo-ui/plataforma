@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { SiteHeader } from './site-header'
 
 const asset = '/invertase-assets/invertase.io/_next/static/media/'
 
@@ -36,11 +37,7 @@ export function InvertaseHome() {
 
   return (
     <main className="invertase-page">
-      <header className="site-header">
-        <a className="wordmark" href="#top"><span>✣</span> INVERTASE</a>
-        <nav aria-label="Global"><a href="#services">Services⌄</a><a href="#open-source">Open source</a><a href="#tools">Products⌄</a><a href="#resources">Blog</a><a href="#footer">Company⌄</a></nav>
-        <div className="header-actions"><span>◉ 33.9k</span><a className="header-cta" href="#footer">Get in touch</a></div>
-      </header>
+      <SiteHeader page="home" />
 
       <section className="hero" id="top">
         <div className="hero-grid">
