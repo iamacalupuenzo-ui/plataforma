@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Age: 216
+Cache-Control: public, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Wed, 26 Aug 2026 20:31:11 GMT
+Etag: W/"6db67cze6v64zs"
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch
+X-Matched-Path: /
+X-Vercel-Cache: STALE
+X-Vercel-Id: iad1::iad1::p5ppp-1787794925389-9197a3e6467e
+Transfer-Encoding: chunked
+

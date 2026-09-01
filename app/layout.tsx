@@ -1,28 +1,8 @@
 import type { Metadata } from 'next'
-import { ThemeProvider } from 'next-themes'
 import './globals.css'
 
-export const metadata: Metadata = {
-  title: 'App Name',
-  description: 'App description',
-}
+export const metadata: Metadata = { title: 'Invertase replica', description: 'Réplica local de aprendizaje.' }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="es" suppressHydrationWarning>
-      <body>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem
-        >
-          {children}
-        </ThemeProvider>
-      </body>
-    </html>
-  )
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="en"><body>{children}</body></html>
 }

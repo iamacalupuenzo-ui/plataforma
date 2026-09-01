@@ -1,0 +1,879 @@
+{
+  "baseUrl": "https://invertase.io/",
+  "downloadedAt": "2026-08-27T02:01:11.293Z",
+  "resources": [
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/939ab82ae80684321e088031575e88a30e7c1524-2016x1194.jpg?w=1344&h=796&q=99&fit=crop&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\939ab82ae80684321e088031575e88a30e7c1524-2016x1194-5e60cc11ab.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/b4ad613ec99f490b3d7748299a6d40a724c0f5cb-158x52.svg?fit=max&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\b4ad613ec99f490b3d7748299a6d40a724c0f5cb-158x52-eb05006e5b.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/b7b77656ff62350eb2662001e2d579c83732f140-2016x1194.jpg?w=1344&h=796&q=99&fit=crop&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\b7b77656ff62350eb2662001e2d579c83732f140-2016x1194-5e60cc11ab.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/b992f7ca3fb1a28baad8ad9b7c8a9b3851e9eda8-184x52.svg?fit=max&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\b992f7ca3fb1a28baad8ad9b7c8a9b3851e9eda8-184x52-eb05006e5b.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/d717a472ab47e8d73857aeda73a7132341911984-2016x1194.jpg?w=1344&h=796&q=99&fit=crop&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\d717a472ab47e8d73857aeda73a7132341911984-2016x1194-5e60cc11ab.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/df059a71429613d0b7245cd8188844046c0b8009-158x52.svg?fit=max&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\df059a71429613d0b7245cd8188844046c0b8009-158x52-eb05006e5b.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/e0972a0c3a6646f88e051331cfe734c968cbdc82-1920x1080.png?w=1024&h=576&q=99&fit=crop&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)",
+        "URL embebida"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\e0972a0c3a6646f88e051331cfe734c968cbdc82-1920x1080-e633b0e412.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://cdn.sanity.io/images/1v0jq1bx/production/e5a3a65487e9d91927f18ea282359a05504639fc-3840x2160.png?w=1024&h=576&q=99&fit=crop&auto=format",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)",
+        "URL embebida"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\cdn.sanity.io\\images\\1v0jq1bx\\production\\e5a3a65487e9d91927f18ea282359a05504639fc-3840x2160-e633b0e412.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/1060-db0a8dcbd28eae2c.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\1060-db0a8dcbd28eae2c.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/1437-9891de6fae19f02f.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\1437-9891de6fae19f02f.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/2117-cb26e5dfc4f40ff1.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\2117-cb26e5dfc4f40ff1.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/2893-f5a5f8b8e3744b46.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\2893-f5a5f8b8e3744b46.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/3408-ea522a2dbbb1c0de.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\3408-ea522a2dbbb1c0de.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/3740-48faba3ba561e3f1.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\3740-48faba3ba561e3f1.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/7074-8481274cb37448d8.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\7074-8481274cb37448d8.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/7295-8fe164204d8222d0.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\7295-8fe164204d8222d0.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/8553-2e8aeed3d015d3f5.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\8553-2e8aeed3d015d3f5.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/9263-827c2262e507a47c.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\9263-827c2262e507a47c.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/9da6db1e-b8596247f2eb2e05.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\9da6db1e-b8596247f2eb2e05.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/app/(website)/(blog)/layout-f8cb90d86ecee3be.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\app\\_website_\\_blog_\\layout-f8cb90d86ecee3be.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/app/(website)/(footer-with-cta)/page-83cbd6c198d3fa90.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\app\\_website_\\_footer-with-cta_\\page-83cbd6c198d3fa90.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/app/(website)/layout-bf759a547c5eb394.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\app\\_website_\\layout-bf759a547c5eb394.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/bf76e631-d41d3ebdfd65a673.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\bf76e631-d41d3ebdfd65a673.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/fd9d1056-375afd9ebfb3f72d.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\fd9d1056-375afd9ebfb3f72d.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/main-app-be3d940aef6bd3eb.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\main-app-be3d940aef6bd3eb.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\polyfills-42372ed130431b0a.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/chunks/webpack-7e0d142b7846e6dc.js",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\chunks\\webpack-7e0d142b7846e6dc.js",
+      "status": "downloaded",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/css/51480672e7dae9d6.css",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\css\\51480672e7dae9d6.css",
+      "status": "downloaded",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/css/57194c6cd919906f.css",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\css\\57194c6cd919906f.css",
+      "status": "downloaded",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/css/a6e265ed37d73fdd.css",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\css\\a6e265ed37d73fdd.css",
+      "status": "downloaded",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/04f7066570cc097ade2a543f0dd435b9.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\04f7066570cc097ade2a543f0dd435b9.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/0c4bbc51addde90a192be76e034bccb8.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\0c4bbc51addde90a192be76e034bccb8.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/14d7ce3e41dcbb66-s.p.woff2",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\14d7ce3e41dcbb66-s.p.woff2",
+      "status": "downloaded",
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/1b0b3615811be75b-s.p.woff2",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\1b0b3615811be75b-s.p.woff2",
+      "status": "downloaded",
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/1f34cff54e4feed5ff25d7c3ae8dddf8.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\1f34cff54e4feed5ff25d7c3ae8dddf8.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/27a1b00ba91854895a12366cc06e6958.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\27a1b00ba91854895a12366cc06e6958.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/32d55f4077bc994f7b388e78b9b245e3.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\32d55f4077bc994f7b388e78b9b245e3.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/4118f1194595ef00e6e4c1d34987fef2.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\4118f1194595ef00e6e4c1d34987fef2.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/44dcfef9759241170807ac703dd74f35.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\44dcfef9759241170807ac703dd74f35.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/45f0d4a1da2a1c83f7c61f5fc766b843.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\45f0d4a1da2a1c83f7c61f5fc766b843.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/4981a8f6e1086ac8c72e3035181cdc40.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\4981a8f6e1086ac8c72e3035181cdc40.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/587da3a564a5652c2a3903a9cd80f644.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\587da3a564a5652c2a3903a9cd80f644.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/5b8e21952742a1a806baa032ddab955f.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\5b8e21952742a1a806baa032ddab955f.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/63c1713463217a3bed92bbd3f0a5be1f.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\63c1713463217a3bed92bbd3f0a5be1f.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/69c567bb36cb72466cf1989fdbcf1a42.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\69c567bb36cb72466cf1989fdbcf1a42.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/6c8c2208b2198db37a82d185bca3646d.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\6c8c2208b2198db37a82d185bca3646d.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/73c6609314c4f0a883cd8a7fd70e8170.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\73c6609314c4f0a883cd8a7fd70e8170.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/77b474d4f9b18b8171d53369da44028a.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\77b474d4f9b18b8171d53369da44028a.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/842f9b5d6727dae66d91709cbc2dbf36.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\842f9b5d6727dae66d91709cbc2dbf36.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/8bd382c38b7828ed322ef62daaa70365.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\8bd382c38b7828ed322ef62daaa70365.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/8c72f58e8fd4d693b871f31746b2d011.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\8c72f58e8fd4d693b871f31746b2d011.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/8cc1f6a2a4bc78051e80ca963848c9b9.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\8cc1f6a2a4bc78051e80ca963848c9b9.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/962193a5e44365cd5ca90a80de528355.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\962193a5e44365cd5ca90a80de528355.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/963b66d4313ee35a24bcbc6071c738b2.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\963b66d4313ee35a24bcbc6071c738b2.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/99cd4c458c18ff74f0278366d784f5eb.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\99cd4c458c18ff74f0278366d784f5eb.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/a5da2f3c589ae1c090595fa33d6aa7e3.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\a5da2f3c589ae1c090595fa33d6aa7e3.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/add043a23e2eddf4b560926689482b09.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\add043a23e2eddf4b560926689482b09.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/b4d12d99000aa3709d1e270defd51ffb.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\b4d12d99000aa3709d1e270defd51ffb.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/b8532087074dc71a59f239657ea042e4.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\b8532087074dc71a59f239657ea042e4.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/c02d3a0a6fd73aba04cebcb8a5b3458f.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\c02d3a0a6fd73aba04cebcb8a5b3458f.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/c251e62211f03e96e19e4330470abac0.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\c251e62211f03e96e19e4330470abac0.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/c5e47ac7ddf14476da72d1f10969e68a.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\c5e47ac7ddf14476da72d1f10969e68a.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/c77ca03d88cb34176c8c05311f06b8f9.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\c77ca03d88cb34176c8c05311f06b8f9.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/d513710c486eab311e694a3a187af0cc.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\d513710c486eab311e694a3a187af0cc.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/docs-bg-md.4b38093a.jpg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\docs-bg-md.4b38093a.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/docs-bg-sm.1c1cdb26.jpg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\docs-bg-sm.1c1cdb26.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/docs-new-bg.5411f6b5.jpg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\docs-new-bg.5411f6b5.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\e4af272ccee01ff0-s.p.woff2",
+      "status": "downloaded",
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/e8b276476c0ac6fa-s.p.woff2",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\e8b276476c0ac6fa-s.p.woff2",
+      "status": "downloaded",
+      "contentType": "font/woff2"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/f0bf91dd123a506110abd837a93723c7.svg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\f0bf91dd123a506110abd837a93723c7.svg",
+      "status": "downloaded",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/flutter-fire-logo.21c27605.png",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\flutter-fire-logo.21c27605.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/google-mobile-ads-logo.29cc21f6.png",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\google-mobile-ads-logo.29cc21f6.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/logo.36245798.png",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\logo.36245798.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/melos-logo.d65ca121.png",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\melos-logo.d65ca121.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/notifee-logo.7a60b2c3.png",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\notifee-logo.7a60b2c3.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/partner-bg-sm.0b95200d.jpg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\partner-bg-sm.0b95200d.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/partner-bg.24e82eb0.jpg",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\partner-bg.24e82eb0.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    },
+    {
+      "url": "https://invertase.io/_next/static/media/react-native-logo.05225e8d.png",
+      "sources": [
+        "atributo HTML (origen de Next Image)",
+        "srcset (origen de Next Image)"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\_next\\static\\media\\react-native-logo.05225e8d.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/animations/pages/home/Bento-02-lg.webm",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\animations\\pages\\home\\Bento-02-lg.webm",
+      "status": "downloaded",
+      "contentType": "video/webm"
+    },
+    {
+      "url": "https://invertase.io/animations/pages/home/Bento-02.webm",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\animations\\pages\\home\\Bento-02.webm",
+      "status": "downloaded",
+      "contentType": "video/webm"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-144x144.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-144x144.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-180x180.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-180x180.png",
+      "status": "failed",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-256x256.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-256x256.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-384x384.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-384x384.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-48x48.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-48x48.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-512x512.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-512x512.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-72x72.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-72x72.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-96x96.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-96x96.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon-white.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon-white.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/favicon/favicon.png",
+      "sources": [
+        "atributo HTML"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\favicon\\favicon.png",
+      "status": "downloaded",
+      "contentType": "image/png"
+    },
+    {
+      "url": "https://invertase.io/images/social-previews/index.jpg",
+      "sources": [
+        "URL embebida"
+      ],
+      "localPath": "D:\\Investigacion\\invertase-replica\\reference\\invertase-home\\assets\\invertase.io\\images\\social-previews\\index.jpg",
+      "status": "downloaded",
+      "contentType": "image/jpeg"
+    }
+  ]
+}
