@@ -167,3 +167,24 @@ a { color: inherit; text-decoration: none; }
 @media(max-width:767px){.sdk-faq-container{padding-left:0;padding-right:0}}
 .sdk-faq-container .faq-answer.is-open{display:block}
 .sdk-faq-container li:first-child .faq-answer:not(.is-open){display:none}
+
+/* Header parity: measured against invertase.io/sdk at the desktop breakpoint. */
+.sdk-header{height:64px;font-size:15px}
+.sdk-header .wordmark{display:inline-flex;width:128px;height:24px;align-items:center}
+.sdk-header .wordmark img{display:block;width:128px;height:24px;object-fit:contain}
+.sdk-header nav{position:absolute;top:50%;left:50%;display:flex;align-items:center;gap:24px;transform:translate(-50%,-50%)}
+.sdk-header nav a,.sdk-header nav button{display:inline-flex;height:15px;align-items:center;gap:1px;border:0;background:none;padding:0;color:#e3e4e9;font:500 15px/15px Invertase,Arial,sans-serif;letter-spacing:.2px;white-space:nowrap;cursor:pointer;transition:color .2s ease}
+.sdk-header nav a:hover,.sdk-header nav button:hover{color:#fff}
+.header-chevron{display:inline-block;width:14px;height:14px;margin-top:1px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 14 14'%3E%3Cpath d='m3 6 4 4 4-4' fill='none' stroke='%239194A1' stroke-width='1.4'/%3E%3C/svg%3E") center/14px 14px no-repeat;transition:transform .2s ease}
+.sdk-header nav button:hover .header-chevron{filter:brightness(1.35)}
+.sdk-header .header-actions{display:flex;align-items:center;gap:20px;font-size:13px}
+.sdk-header .github-stars{display:inline-flex;width:58px;height:20px;align-items:center;gap:6px;color:#e3e4e9;font:400 13px/13px Invertase,Arial,sans-serif;transition:color .2s ease}
+.sdk-header .github-stars:hover{color:#fff}
+.sdk-header .header-cta{position:relative;display:inline-flex;width:120px;height:34px;align-items:center;justify-content:center;border:0;border-radius:999px;background:linear-gradient(180deg,#6d6d7f 0%,#292c3d 50%,#17181c 100%);box-shadow:0 3px 7.2px rgba(10,10,10,.2);padding:0 18px;color:#eef0f1;font:600 15px/15px Invertase,Arial,sans-serif;letter-spacing:-.6px;transition:filter .2s ease,transform .2s ease;box-sizing:border-box}
+.sdk-header .header-cta:before{position:absolute;inset:1px;border-radius:inherit;background:radial-gradient(195% 60% at 50% 60%,transparent 0%,#25252d 100%);content:'';transition:opacity .2s ease}
+.sdk-header .header-cta:after{position:absolute;inset:0;border-radius:inherit;background:radial-gradient(100% 75% at 50% -34%,#8d91a5 0%,rgba(141,145,165,.3) 49%,transparent 100%);content:'';opacity:0;transition:opacity .2s ease}
+.sdk-header .header-cta:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.sdk-header .header-cta:after{display:none}
+.sdk-header .header-cta:hover:before{opacity:0}.sdk-header .header-cta:hover:after{opacity:1}
+.sdk-header .header-cta{z-index:0}.sdk-header .header-cta::first-line{position:relative;z-index:2}
+@media(max-width:767px){.sdk-header .wordmark,.sdk-header .wordmark img{width:128px}.sdk-header nav,.sdk-header .header-actions{display:none}}
